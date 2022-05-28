@@ -1,0 +1,15 @@
+.statistics {
+    
+
+};
+
+.title{};
+
+.statList{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none
+};
+.item {};
+.label{};
+.percentage{};

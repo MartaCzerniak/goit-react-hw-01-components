@@ -1,0 +1,49 @@
+.profile {
+    display: flex;
+    border-radius: 5%; 
+};
+
+.description {
+
+    font-size: 14px;
+};
+
+.avatar {
+
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+};
+
+.name {
+    
+    font-size: 16px;
+};
+
+.tag {
+
+    font-size: 16px;
+};
+
+.location {
+
+    font-size: 14px;
+};
+
+.stats {
+
+    display: flex;
+    flex-direction: row;
+    background-color: gray;
+    font-size: 14px;
+};
+
+.label {
+
+    font-size: 16px;
+};
+
+.quantity {
+
+    font-size: 14px;
+};
