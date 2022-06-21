@@ -1,4 +1,5 @@
-import styles from '../FriendList/FriendList.module.css';
+/** @jsxImportSource @emotion/react */
+import { css } from '@emotion/react';
 import FriendListItem from './FriendListItem';
 
 function FriendList(props) {
@@ -12,7 +13,11 @@ function FriendList(props) {
       />
     ));
     return (
-        <ul>{view}</ul>
+        <ul css={css` 
+        display: flex; 
+        flex-direction: column;
+        align-items: center; 
+        padding: 0;`}>{view}</ul>
     );
 };
 export default FriendList;
