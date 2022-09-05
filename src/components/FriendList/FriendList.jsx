@@ -7,9 +7,10 @@ function FriendList(props) {
     const view = friends.map(friend => (
         <FriendListItem
         key={friend.id}
+        isOnline={friend.isOnline}
         avatar={friend.avatar}
         name={friend.name}
-        isOnline={friend.isOnline}
+        
       />
     ));
     return (
