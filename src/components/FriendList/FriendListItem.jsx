@@ -11,13 +11,17 @@ function FriendListItem(props) {
         padding: 10px;
         box-shadow: -1px, 3px, 20px, -11px, rgba(66, 68, 90, 1);
         border-radius: 5px;`}>
-        <span css={css`
-        display: block;
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-        background-color: props.isOnline ? green : red;
-        margin-right: 10px;`}>{props.isOnline}</span>
+        <span
+        css={{
+          display: 'block',
+          width: 20,
+          height: 20,
+          borderRadius: 50,
+          backgroundColor: props.isOnline ? 'green' : 'red',
+          marginRight: 10,
+        }}
+      ></span>
+      
         <img css={css` 
         width: 80px;
         height: 80px;`} src={props.avatar} alt="User avatar" width={48} />
